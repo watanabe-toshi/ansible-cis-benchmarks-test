@@ -1,12 +1,10 @@
 ---
-- name: CIS-like hardening baseline for Windows Server 2022
+- name: Demo CIS-like baseline for Windows Server 2022
   hosts: windows
   gather_facts: false
   vars_files:
     - ./vars/vars.yml
 
   roles:
-    - 01-AccountPolicies
-    - 02-2-UserRightsAssignment
-    - 09-WindowsFirewall
-    - 18-AdministrativeTemplates
+    - account_policies
+    - windows_firewall
