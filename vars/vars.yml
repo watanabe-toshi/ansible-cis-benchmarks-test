@@ -1,0 +1,8 @@
+password_history_size: 24
+maximum_password_age: 60
+minimum_password_age: 1
+minimum_password_length: 14
+
+lockout_bad_count: 10
+reset_lockout_count: 15
+lockout_duration: 15
