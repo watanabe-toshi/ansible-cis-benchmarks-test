@@ -6,3 +6,6 @@ minimum_password_length: 14
 lockout_bad_count: 10
 reset_lockout_count: 15
 lockout_duration: 15
+
+rdp_allowed_remote_ip: "type your global ip"
+linux_control_node_ip: "type Linux private IP"
